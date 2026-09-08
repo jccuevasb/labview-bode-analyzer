@@ -42,3 +42,7 @@ Desktop.ini
 # Editor files
 .vscode/
 .idea/
+
+# LabVIEW per-user project state
+.*.UserState/
+*.UserState/
