@@ -1,0 +1,44 @@
+﻿# Sensitive or private material
+private/
+secrets/
+.env
+.env.*
+*.key
+*.pem
+*.pfx
+credentials.*
+
+# Raw experimental data: only sanitized examples are public
+data/*
+!data/examples/
+!data/examples/**
+
+# LabVIEW local configuration and generated files
+*.aliases
+*.lvlps
+*.lvproj.user
+*.bak
+*.tmp
+*.log
+*.autosave
+~$*
+build/
+builds/
+dist/
+
+# MATLAB temporary files
+*.asv
+
+# Python temporary environments and caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Windows files
+Thumbs.db
+Desktop.ini
+
+# Editor files
+.vscode/
+.idea/
