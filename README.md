@@ -1,4 +1,4 @@
-﻿# LabVIEW Bode Frequency Response Analyzer
+# LabVIEW Bode Frequency Response Analyzer
 
 A LabVIEW and NI-DAQmx application for measuring the magnitude and phase response of analog electronic filters using an NI USB-6212 data-acquisition device.
 
@@ -7,6 +7,19 @@ A LabVIEW and NI-DAQmx application for measuring the magnitude and phase respons
 The current baseline performs frequency-response measurements for a passive low-pass filter using generated excitation, synchronized acquisition, loopback calibration, and tone measurements.
 
 Active-filter support is under development and has not yet been validated.
+
+## Passive RC Baseline
+
+A 56 kΩ resistor and 10 nF capacitor give a theoretical cutoff frequency of 284.21 Hz. The baseline measurement produced:
+
+- Measured -3 dB cutoff: 300.29 Hz
+- Difference from nominal prediction: 5.7%
+- Magnitude RMSE: 0.401 dB
+- Phase RMSE: 3.739 degrees
+
+![Passive RC baseline magnitude and phase response](docs/passive_rc_baseline.png)
+
+The baseline agrees well with the theoretical first-order response. An isolated phase outlier at 11 Hz is retained in the published data. It is consistent with the fixed 0.2-second acquisition window containing too few cycles at low frequencies and motivates the next acquisition improvement.
 
 ## Project Goals
 
