@@ -14,6 +14,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="BodeFrequencyResponseAnalyzer.vi" Type="VI" URL="../BodeFrequencyResponseAnalyzer.vi"/>
 		<Item Name="WrapPhase180.vi" Type="VI" URL="../WrapPhase180.vi"/>
+		<Item Name="WriteBodeRow.vi" Type="VI" URL="../WriteBodeRow.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
