@@ -1,5 +1,10 @@
 # LabVIEW Bode Frequency Response Analyzer
 
+> **Compatibility version:** This branch is saved for the LabVIEW 25.0
+> source format and tested with **LabVIEW 2025 Q3 32-bit, patch 25.3.2f2**.
+> The `main` branch contains the LabVIEW 2026 64-bit development version.
+> See [COMPATIBILITY.md](COMPATIBILITY.md) for requirements and differences.
+
 A LabVIEW and NI-DAQmx application for measuring the magnitude and phase response of analog electronic filters using an NI USB-6212 data-acquisition device.
 
 <p align="center">
