@@ -13,6 +13,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="BodeFrequencyResponseAnalyzer.vi" Type="VI" URL="../BodeFrequencyResponseAnalyzer.vi"/>
+		<Item Name="WrapPhase180.vi" Type="VI" URL="../WrapPhase180.vi"/>
 		<Item Name="Dependencies" Type="Dependencies"/>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
