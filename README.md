@@ -2,6 +2,12 @@
 
 A LabVIEW and NI-DAQmx application for measuring the magnitude and phase response of analog electronic filters using an NI USB-6212 data-acquisition device.
 
+<p align="center">
+  <img src="docs/block-diagram.png"
+       alt="LabVIEW Bode Frequency Response Analyzer block diagram"
+       width="900">
+</p>
+
 ## Current Status
 
 The current baseline performs frequency-response measurements for a passive low-pass filter using generated excitation, synchronized acquisition, loopback calibration, and tone measurements.
