@@ -59,3 +59,10 @@ The calibration should be repeated if:
 
 Random isolated phase spikes are not corrected by this expression. Those
 require settling, measurement-quality checks, or outlier rejection.
+
+## LabVIEW implementation
+
+The following block-diagram section implements the one-sample phase correction
+and wraps the corrected result into the interval [-180 degrees, 180 degrees).
+
+![USB-6212 phase-correction block diagram](usb-6212-phase-correction-block-diagram.png)

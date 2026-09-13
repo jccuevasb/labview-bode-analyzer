@@ -50,3 +50,6 @@ src/BackLoopData.txt
 src/DUTData.txt
 src/results/
 data/raw/
+src/BodeFrequencyResponseAnalyzer_BlockDiagram.pdf
+src/BodeFrequencyResponseAnalyzer_FrontPanel.pdf
+src/RCFirstOrderFilter.txt
