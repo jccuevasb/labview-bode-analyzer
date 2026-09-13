@@ -46,3 +46,7 @@ Desktop.ini
 # LabVIEW per-user project state
 .*.UserState/
 *.UserState/
+src/BackLoopData.txt
+src/DUTData.txt
+src/results/
+data/raw/

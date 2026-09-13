@@ -66,3 +66,10 @@ The baseline agrees well with the theoretical first-order response. An isolated 
 ## Privacy
 
 This public repository excludes credentials, institutional paths, device serial numbers, private documentation, and unsanitized experimental data.
+
+## USB-6212 phase correction
+
+The analyzer compensates for the one-sample relative channel offset observed
+in the USB-6212 acquisition path. See
+[NI USB-6212 Phase Correction](docs/usb-6212-phase-correction.md) for the
+equation, validation procedure, and limitations.
